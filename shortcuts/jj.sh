@@ -1,4 +1,7 @@
 #!/bin/sh
+
+##This is a simple script to compile and 
+##run any java file from any directory in linux terminal
 if
 test -z $1
 then
