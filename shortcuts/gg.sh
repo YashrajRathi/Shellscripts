@@ -1,5 +1,5 @@
 #!/bin/sh
-##A script to open a gedit fast with a shortcut
+##A script to open a gedit fast with a shortcut	
 
 if
 test -z $1
