@@ -2,6 +2,8 @@
 
 ##This is a simple script to compile and 
 ##run any java file from any directory in linux terminal
+##Sort of helps us not do the redundunt work
+
 if
 test -z $1
 then

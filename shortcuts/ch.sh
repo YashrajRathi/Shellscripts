@@ -1,6 +1,8 @@
 #!/bin/sh
 
 #Directory manager for linux so that one can transerve through directories with ease
+#Normally very boring to remember your previously logged directory so this is much better
+
 
 case $1 in
 	-a)
