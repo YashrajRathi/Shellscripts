@@ -55,7 +55,7 @@ case $1 in
 			if
 				test $code_of_directory_to_be_deleted -eq $code
 			then
-				sed -i.csv -e $code_of_directory_to_be_deleted'd' ~/shellscripts/shortcuts/dir_list.csv
+				sed -i -e $code_of_directory_to_be_deleted'd' ~/shellscripts/shortcuts/dir_list.csv
 			fi
 		
 		done < ~/shellscripts/shortcuts/dir_list.csv
