@@ -14,7 +14,6 @@ alias save_kube_apiserver_manifest_file_to_kube="/home/username/Shellscripts/sav
 alias make_kube_apiserver="/home/username/Shellscripts/make_kube_apiserver.sh"
 alias observe_kubeapi_pod="watch -n 2 /home/username/Shellscripts/observe_kubeapi_pod.sh"
 alias mkubectl="/home/username/Shellscripts/make_kubectl.sh"
-alias aa="echo '[0-9a-z\-_]*.go'"
 alias k="kubectl" 
 alias kube_complete="source <(kubectl completion bash) ; complete -F __start_kubectl k ;"
 source <(kubectl completion bash) ;
